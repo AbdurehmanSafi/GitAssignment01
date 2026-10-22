@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Order | Clothing E-Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Clothing E-Store</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="signin.html">Sign In</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="products.html">Products</a>
+            <a href="order-history.html">Order History</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Place Your Order</h2>
+
+        <form action="#" method="post">
+            <p>
+                <label for="customer">Full Name:</label>
+                <input type="text" id="customer" name="customer" required>
+            </p>
+
+            <p>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </p>
+
+            <p>
+                <label for="address">Delivery Address:</label>
+                <textarea id="address" name="address" required></textarea>
+            </p>
+
+            <p>
+                <label for="product">Product:</label>
+                <select id="product" name="product">
+                    <option value="tshirt">Classic Cotton T-Shirt</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="size">Size:</label>
+                <select id="size" name="size">
+                    <option value="S">Small</option>
+                    <option value="M">Medium</option>
+                    <option value="L">Large</option>
+                    <option value="XL">Extra Large</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity"
+                       min="1" value="1" required>
+            </p>
+
+            <p>
+                <label for="payment">Payment Method:</label>
+                <select id="payment" name="payment">
+                    <option value="cod">Cash on Delivery</option>
+                    <option value="bank">Bank Transfer</option>
+                </select>
+            </p>
+
+            <button type="submit">Confirm Order</button>
+        </form>
+
+        <p><a href="products.html">Continue Shopping</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Clothing E-Store</p>
+    </footer>
+</body>
+</html>

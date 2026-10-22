@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Reviews | Clothing E-Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Clothing E-Store</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="signin.html">Sign In</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="products.html">Products</a>
+            <a href="order-history.html">Order History</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Product Reviews</h2>
+        <h3>Classic Cotton T-Shirt</h3>
+
+        <section>
+            <h3>Review 1</h3>
+            <p><strong>Customer:</strong> Ali</p>
+            <p><strong>Rating:</strong> 5/5</p>
+            <p>Excellent quality and very comfortable fabric.</p>
+        </section>
+
+        <section>
+            <h3>Review 2</h3>
+            <p><strong>Customer:</strong> Ahmed</p>
+            <p><strong>Rating:</strong> 4/5</p>
+            <p>Good product and reasonable price.</p>
+        </section>
+
+        <section>
+            <h3>Write a Review</h3>
+            <form action="#" method="post">
+                <p>
+                    <label for="customer">Your Name:</label>
+                    <input type="text" id="customer" name="customer" required>
+                </p>
+
+                <p>
+                    <label for="rating">Rating:</label>
+                    <select id="rating" name="rating" required>
+                        <option value="5">5 - Excellent</option>
+                        <option value="4">4 - Good</option>
+                        <option value="3">3 - Average</option>
+                        <option value="2">2 - Poor</option>
+                        <option value="1">1 - Very Poor</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="review">Your Review:</label>
+                    <textarea id="review" name="review" required></textarea>
+                </p>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </section>
+
+        <p><a href="product-details.html">Back to Product Details</a></p>
+        <p><a href="products.html">Back to Products</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Clothing E-Store</p>
+    </footer>
+</body>
+</html>
