@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | Clothing E-Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Clothing E-Store</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="signin.html">Sign In</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="products.html">Products</a>
+            <a href="order-history.html">Order History</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Classic Cotton T-Shirt</h2>
+        <p>Category: Men's Clothing</p>
+        <p>Comfortable, breathable cotton fabric for everyday wear.</p>
+        <p>Price: Rs. 1,500</p>
+
+        <form action="place-order.html" method="get">
+            <label for="size">Select Size:</label>
+            <select id="size" name="size">
+                <option value="S">Small</option>
+                <option value="M">Medium</option>
+                <option value="L">Large</option>
+                <option value="XL">Extra Large</option>
+            </select>
+
+            <p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity"
+                       min="1" value="1">
+            </p>
+
+            <button type="submit">Order Now</button>
+        </form>
+
+        <p><a href="product-reviews.html">Read Product Reviews</a></p>
+        <p><a href="products.html">Back to Products</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Clothing E-Store</p>
+    </footer>
+</body>
+</html>
